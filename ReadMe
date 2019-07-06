@@ -1,0 +1,2 @@
+1) в начале нужно запустить сервер: node server/appChat.js
+2) потом: npm run dev2

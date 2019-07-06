@@ -1,0 +1,207 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    position: fixed;
+    width: 200px;
+    left:0px;
+    top: 0px;
+    bottom:0px;
+    background-color:#f08a65;
+    color: #ffffff;
+}
+.menu .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 50px;
+}
+.menu .top .logot{
+    flex-basis:50px; 
+}
+.menu .top .logot img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.menu .top .h1{
+    flex-basis:150px;
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu .h2{
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu .divUser{
+    color:rgb(238, 243, 209);
+    font-size: 12px;
+    margin: 5px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.auth {
+    position: fixed;
+    width: 500px;
+    height: 230px;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -250px;
+    background-color:#b4b4b4;
+}
+.auth .name {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    color: black;
+}
+.auth .block {
+    display: block;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius:10px;
+}
+.auth .block input[type="text"] {
+    border: 1px solid #cccccc; 
+    border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    -khtml-border-radius: 3px;
+    background: #ffffff !important;
+    outline: none;
+    height: 24px; 
+    width: 100%;
+    color: #727272; 
+    font-size: 11px; 
+    font-family: Tahoma;
+    margin: 10px 0;
+}
+
+.auth .block .knopkaAuth {
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background:#f08a65;
+    padding: .7em 1.5em; 
+    outline: none;
+    cursor: pointer;
+    /* display: inline-block; */
+    float: right;
+    border-radius:6px;
+
+} 
+.auth .block .knopkaAuth:hover { background: rgb(232,95,76); }
+.auth .block .knopkaAuth:active { background: rgb(152,15,0); }
+
+.auth .errorAuth { color: rgb(152,15,0);}
+
+.sender {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    left:200px;
+    bottom:0px;
+    right: 0px;
+}
+.sender .div1{
+    flex-basis:800px; 
+}
+.sender .div1 input{
+    border: 1px solid #8a8a8a; 
+    border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    -khtml-border-radius: 3px;
+    background: #ffffff !important;
+    outline: none;
+    height: 24px;
+    margin-left: 20px;
+    width: calc(100% - 40px);
+    color: #383838; 
+    font-size: 14px; 
+    font-family: Tahoma;
+}
+
+.sender .div2{
+    flex-basis: 200px; 
+    text-align: center;
+}
+.sender .div2 .send {
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background:#f08a65;
+    padding: .7em 1.5em; 
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius:6px;
+
+} 
+.sender .div2 .send:hover { background: rgb(232,95,76); }
+.sender .div2 .send:active { background: rgb(152,15,0); }
+
+.msg {
+    position: fixed;
+    height: calc(100% - 100px);
+    left:200px;
+    bottom:100px;
+    right: 0px;
+    top: 0px;
+    overflow:hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.msg .elem {
+    display: flex;
+}
+
+.msg .elem .elemLeft{
+    flex-basis:50px; 
+	flex-grow:0;
+	flex-shrink:0;
+}
+.msg .elem .elemLeft img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.msg .elem .elemRight{
+    display: flex;
+    flex-direction: column;
+}
+
+.msg .elem .elemRight span{
+    color: #383838
+}
+
+
+.img {
+    position: fixed;
+    width: 500px;
+    height: 230px;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -250px;
+    background-color:#b4b4b4;
+}

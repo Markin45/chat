@@ -1,0 +1,13 @@
+<div class="elem">
+    <div class="elemLeft">
+        {{#if myFoto}}
+            <img data-iduser="{{idUser}}" src="{{myFoto}}"/>
+        {{else}}
+            <img data-iduser="{{idUser}}" src="./img/not.png"/>
+        {{/if}}
+    </div>
+    <div class="elemRight">
+        <div><b>{{fio}}</b> <span> {{time}}</samp></div>
+        <div>{{text}}</div>
+    </div>
+</div>
